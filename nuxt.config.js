@@ -1,5 +1,9 @@
 const pkg = require('./package')
 module.exports = {
+  router: {
+    base: '/'
+  },
+
   mode: 'universal',
   head: {
     title: 'BEAD - Bloomington Entertainment & Arts District',

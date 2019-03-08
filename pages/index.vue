@@ -187,7 +187,7 @@ export default {
     return {
       // Row One :: Logo
       logo: {
-        imgUrl:     '/images/bead-logo.svg',
+        imgUrl:     '/new/images/bead-logo.svg',
         tagline:    'Possibilities in every direction.',
       },
 
