@@ -249,14 +249,14 @@ export default {
         left: {
           heading:  'EVENTS &amp; HAPPENINGS',
           text: {
-            one:    '<a href="" title="Find out">Find out</a> what’s going on in town!',
-            two:    '<a href="" title="Sign up">Sign up</a> for our newsletter to receive information on local organizations, job/audition opportunities, and conferences!'
+            one:    '<a href="https://www.visitbloomington.com/events/?utm_source=Bloomington+Entertainment+%26+Arts+District&utm_medium=BEAD+website&utm_campaign=BEAD+website_2018_events+calendar" title="Find out">Find out</a> what’s going on in town!',
+            two:    'Visit Bloomington <a href="https://www.visitbloomington.com/events/" title="Events Calendar">Events Calendar</a>'
           },
         },
         right: {
           heading:  'Tours',
           text: {
-            one:    'Do you want to learn more about <a href="" title="Bloomington’s iconic limestone architecture">Bloomington’s iconic limestone architecture</a>, or are you curious about local history? Even if you are just looking for a fun-filled walk, Bloomington’s Historic District are waiting for you.'
+            one:    'Do you want to learn more about <a href="https://bloomington.in.gov/about/walking-tours" title="Bloomington’s iconic limestone architecture">Bloomington’s iconic limestone architecture</a>, or are you curious about local history? Even if you are just looking for a fun-filled walk, Bloomington’s Historic District are waiting for you.'
           }
         }
       },
@@ -267,13 +267,13 @@ export default {
           heading:  'Social Media and<br>Event Promotion',
           text: {
             one:    'Let us promote your events!',
-            two:    '<a href="" title="Complete our form">Complete our form</a>.'
+            two:    '<a href="https://docs.google.com/forms/d/1ceClJiwZNxGtlRMqNYYVUOwjnVmgYNEQR8WtTnVo_9U/edit" title="Complete our form">Complete our form</a>.'
           },
         },
         right: {
           heading:  'Trails',
           text: {
-            one:    '<a href="" title="The B-Line Trail">The B-Line Trail</a>: A unique, urban, multi-use trail with separate lanes for bikes and walkers lined with dynamic public art and creative landscaping.'
+            one:    '<a href="https://bloomington.in.gov/parks/trails/b-line-trail" title="The B-Line Trail">The B-Line Trail</a>: A unique, urban, multi-use trail with separate lanes for bikes and walkers lined with dynamic public art and creative landscaping.'
           }
         }
       },
@@ -283,34 +283,34 @@ export default {
         left: {
           heading:  'Parking',
           text: {
-            one:    'A variety of parking options are available downtown, including on-street, surface pay lots, and three centrally located parking garages. Our convenient <a href="" title="Parkmobile App">Parkmobile App</a> makes things easy with the Pay-As-You-Go system. <a href="" title="Learn more">Learn more</a>.'
+            one:    'A variety of parking options are available downtown, including on-street, surface pay lots, and three centrally located parking garages. Our convenient <a href="http://us.parkmobile.com/#how-it-works" title="Parkmobile App">Parkmobile App</a> makes things easy with the Pay-As-You-Go system. <a href="https://bloomington.in.gov/transportation/parking/downtown-parking" title="Learn more">Learn more</a>.'
           },
         },
         right: {
           heading:  'Community Parters',
           li: {
             one: {
-              link: 'https://bloomington.in.gov/',
+              link: 'https://goo.gl/UEn8CX',
               text: 'Vist Bloomington',
             },
             two: {
-              link: 'https://bloomington.in.gov/',
+              link: 'http://bloomingtonarts.org/',
               text: 'Arts Alliance of Greater Bloomington',
             },
             three: {
-              link: 'https://bloomington.in.gov/',
+              link: 'https://artsandhumanities.indiana.edu/about/members.html',
               text: 'Indiana University Arts and Humanities Council',
             },
             four: {
-              link: 'https://bloomington.in.gov/',
+              link: 'https://bloomington.in.gov/boards/arts',
               text: 'Bloomington Arts Commission',
             },
             five: {
-              link: 'https://bloomington.in.gov/',
+              link: 'http://www.in.gov/arts/2654.htm',
               text: 'Indiana Arts Commission',
             },
             six: {
-              link: 'https://bloomington.in.gov/',
+              link: 'https://bctboxoffice.org/',
               text: 'BCT Box Office/BEAD Info Shop',
             },
           }
