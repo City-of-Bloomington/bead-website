@@ -478,3 +478,116 @@ and (max-device-width : 480px) {
     background-size: 350px 350px;
   }
 }
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 768px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .row {
+    &.one {
+      .left {
+        flex: 0 0 100%;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+
+        img {
+          width: 500px;
+        }
+
+        h1 {
+          font-size: 24px;
+          line-height: 32px;
+          margin: -35px 0 0 260px;
+        }
+      }
+
+      .right {
+        padding: 20px;
+
+        .title {
+          font-size: 18px;
+          line-height: 26px;
+        }
+
+        div {
+          &:first-child {
+            margin: 0 0 10px 0;
+          }
+        }
+      }
+    }
+
+    &.two {
+      padding: 20px;
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    &.three,
+    &.four {
+
+      h2 {
+        bottom: 20px;
+        left: 20px;
+      }
+
+      .left {
+        margin: 0 0 10px 0;
+      }
+
+      .right {
+        margin: 0
+      }
+
+      .left,
+      .right {
+        flex: 0 0 100%;
+        padding: 20px;
+      }
+    }
+
+    &.five,
+    &.six,
+    &.seven {
+      .left,
+      .right {
+        flex: 0 0 100%;
+        padding: 0;
+      }
+
+      .left {
+        margin: 0 0 10px 0;
+      }
+
+      // h1 {
+      //   font-size: 22px;
+      //   line-height: 30px;
+      // }
+
+      // p,
+      // a {
+      //   margin: 0 0 10px 0;
+      //   font-size: 18px;
+      //   line-height: 26px;
+      // }
+    }
+
+    &.nine {
+      svg {
+        height: 150px;
+      }
+    }
+  }
+
+  footer {
+    height: 200px;
+    background-size: 350px 350px;
+  }
+}
