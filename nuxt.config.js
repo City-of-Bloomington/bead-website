@@ -20,10 +20,10 @@ module.exports = {
     name:         'BEAD - Bloomington Entertainment & Arts District',
     short_name:   'BEAD',
     description:  'The Bloomington Entertainment & Arts District (BEAD) is a state-designated cultural district and city-led economic development projects.',
-    theme_color:  '#FF4164'
+    theme_color:  '#8c28ff'
   },
 
-  loading: { color: '#FF4164' },
+  loading: { color: '#8c28ff' },
 
   css: [
     '@/assets/style.scss',
@@ -32,7 +32,10 @@ module.exports = {
   plugins: [],
 
   modules: [
-    '@nuxtjs/pwa',
+    ['@nuxtjs/pwa', {
+      icon: true,
+      sizes: [16, 120, 144, 152, 192, 384, 512],
+    }]
   ],
 
   build: {

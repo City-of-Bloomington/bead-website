@@ -3,10 +3,7 @@
     <div class="wrapper">
       <div class="row one">
         <div class="left">
-          <a href="#"
-             title="The Bloomington Entertainment &amp; Arts District">
-            <img :src="logo.imgUrl" alt="BEAD Logo">
-          </a>
+          <img :src="logo.imgUrl" alt="The Bloomington Entertainment &amp; Arts District">
           <h1>{{logo.tagline}}</h1>
         </div>
 
