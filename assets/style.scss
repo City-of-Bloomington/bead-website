@@ -42,6 +42,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 article, aside, details, figcaption, figure,
@@ -355,4 +356,125 @@ footer {
   background-image: url($image-footer);
   background-repeat: repeat;
   background-size: 650px 650px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .row {
+    &.one {
+      .left {
+        flex: 0 0 100%;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+
+        img {
+          width: 100%;
+        }
+
+        h1 {
+          display: none;
+          font-size: 18px;
+          line-height: 18px;
+          margin: -35px 0 0 145px;
+        }
+      }
+
+      .right {
+        padding: 10px;
+
+        .title {
+          font-size: 18px;
+          line-height: 26px;
+        }
+
+        div {
+          &:first-child {
+            margin: 0 0 10px 0;
+          }
+        }
+      }
+    }
+
+    &.two {
+      padding: 10px;
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    &.three,
+    &.four {
+
+      h1 {
+        font-size: 26px;
+        line-height: 30px;
+      }
+
+      h2 {
+        bottom: 10px;
+        left: 10px;
+        font-size: 22px;
+        line-height: 28px;
+      }
+
+      .left {
+        margin: 0 0 10px 0;
+      }
+
+      .right {
+        margin: 0
+      }
+
+      .left,
+      .right {
+        flex: 0 0 100%;
+        padding: 10px;
+      }
+    }
+
+    &.five,
+    &.six,
+    &.seven {
+      .left,
+      .right {
+        flex: 0 0 100%;
+        padding: 0;
+      }
+
+      .left {
+        margin: 0 0 10px 0;
+      }
+
+      h1 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+
+      p,
+      a {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    &.nine {
+      svg {
+        height: 150px;
+      }
+    }
+  }
+
+  footer {
+    height: 200px;
+    background-size: 350px 350px;
+  }
 }
