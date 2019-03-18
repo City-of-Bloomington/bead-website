@@ -302,6 +302,10 @@ export default {
               link: 'https://bctboxoffice.org/',
               text: 'BCT Box Office/BEAD Info Shop',
             },
+            seven: {
+              link: 'https://www.downtownbloomington.com/',
+              text: 'Downtown Bloomington, INC.'
+            },
           }
         }
       },
