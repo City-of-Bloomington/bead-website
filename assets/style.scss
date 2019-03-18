@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Eesti Display Ultra Bold';
-  src: url('/new/fonts/GT-Eesti-Display-UBold.eot?') format('eot'),
-       url('/new/fonts/GT-Eesti-Display-UBold.woff') format('woff');
+  src: url('/fonts/GT-Eesti-Display-UBold.eot?') format('eot'),
+       url('/fonts/GT-Eesti-Display-UBold.woff') format('woff');
 }
 
 $font-eesti:        'Eesti Display Ultra Bold';
@@ -17,11 +17,11 @@ $color-light-blue:  rgba(15, 155, 255, 1);
 $color-dark-blue:   rgba(0, 30, 75, 1);
 $color-red:         rgba(255, 65, 100, .9);
 
-$image-grid-one:    '/new/images/one.jpg';
-$image-grid-two:    '/new/images/two.jpg';
-$image-grid-three:  '/new/images/three.jpg';
-$image-grid-four:   '/new/images/four.jpg';
-$image-footer:      '/new/images/footer.svg';
+$image-grid-one:    '/images/one.jpg';
+$image-grid-two:    '/images/two.jpg';
+$image-grid-three:  '/images/three.jpg';
+$image-grid-four:   '/images/four.jpg';
+$image-footer:      '/images/footer.svg';
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

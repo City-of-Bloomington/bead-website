@@ -190,9 +190,9 @@ export default {
 
       // Row One :: Connect Info
       connect: {
-        instagram:  'https://www.instagram.com/',
-        twitter:    'https://www.twitter.com/',
-        facebook:   'https://www.facebook.com/',
+        instagram:  'https://www.instagram.com/bloomingtonartsandculture/',
+        twitter:    'https://twitter.com/GoBEAD/',
+        facebook:   'https://www.facebook.com/bloomingtonentertainmentandartsdistrict/',
       },
 
       // Row One :: Contact Info

@@ -2,20 +2,20 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/17188203bdb44537a0de.js",
-    "revision": "e49b0c22684625d3b1b9935993d33542"
-  },
-  {
     "url": "/_nuxt/1ebf2ce2c41dace20382.js",
     "revision": "9549321e190f30a898963ed709657ab9"
   },
   {
-    "url": "/_nuxt/2a564270039d251bbd25.js",
-    "revision": "a12f4de19119b72abf182360fe62d8c0"
+    "url": "/_nuxt/9950538d0caa19d0b2af.js",
+    "revision": "a4a06cf2dffc9b8d0e3a292c8b8cf9e2"
   },
   {
-    "url": "/_nuxt/9f40bf62bf99943aafa9.js",
-    "revision": "b710da232387d6041bc8de26f981c2c7"
+    "url": "/_nuxt/b756030d5a4dd4230179.js",
+    "revision": "78bdcb09697221e2384e75e3211528cf"
+  },
+  {
+    "url": "/_nuxt/d6fc6c159d1ff536fc8d.js",
+    "revision": "8cb8b982a0aab42ff2073aa932c9b3d5"
   }
 ], {
   "cacheId": "bead",
