@@ -197,11 +197,11 @@ export default {
 
       // Row One :: Contact Info
       contact: {
-        street:     '401 N Morton Street',
-        suite:      'Suite 150',
-        townCityZip: 'Bloomington IN 47401',
-        phone:      '812-349-3418',
-        fax:        '812-349-3535',
+        street:       '401 N Morton Street',
+        suite:        'Suite 150',
+        townCityZip:  'Bloomington IN 47403',
+        phone:        '812-349-3418',
+        fax:          '812-349-3535',
       },
 
       // Row Two
