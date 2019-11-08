@@ -199,7 +199,7 @@ export default {
       contact: {
         street:       '401 N Morton Street',
         suite:        'Suite 150',
-        townCityZip:  'Bloomington IN 47403',
+        townCityZip:  'Bloomington IN 47404',
         phone:        '812-349-3418',
         fax:          '812-349-3535',
       },
